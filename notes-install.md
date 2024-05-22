@@ -1,10 +1,14 @@
 
+Splunk enterprise vs splunk cloud
+
 
 first create splunk account with enterprise email
 https://www.splunk.com/en_us/sign-up.html
 
 download dmg
 https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us
+
+wget -O splunk-9.2.1-78803f08aabb-x64-release.msi "https://download.splunk.com/products/splunk/releases/9.2.1/windows/splunk-9.2.1-78803f08aabb-x64-release.msi"
 
 
 /Applications/Splunk/bin/splunk start
