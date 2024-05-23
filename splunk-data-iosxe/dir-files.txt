@@ -1,0 +1,67 @@
+
+Wed May 22 2024 13:55:45 GMT-0700 (Pacific Daylight Time)
+===================================================================================
+#dir
+Directory of flash:/
+131073  drwx             4096  May 22 2024 20:51:08 +00:00  tech_support
+638996  -rw-              243  May 21 2024 22:45:12 +00:00  smart_overall_health.log
+639015  -rw-             6499  Apr 26 2024 16:50:19 +00:00  cat9k.conf
+638979  -rwx          2097152   Apr 1 2024 18:15:20 +00:00  nvram_config_bkup
+638978  -rwx          2097152   Apr 1 2024 18:15:20 +00:00  nvram_config
+688129  drwx             4096  Mar 28 2024 22:40:13 +00:00  .installer
+311297  drwx             4096  Mar 28 2024 22:30:58 +00:00  pnp-tech
+639007  -rw-            16957  Mar 28 2024 22:30:41 +00:00  rdope_out.txt
+638985  -rw-                0  Mar 28 2024 22:30:41 +00:00  dope_hist
+639008  -rw-               89  Mar 28 2024 22:30:40 +00:00  rdope.log
+11      drwx             4096  Mar 28 2024 22:30:19 +00:00  .prst_sync
+639020  -rw-               15  Mar 28 2024 22:29:56 +00:00  rmon_var_template
+638993  -rwx             2049  Mar 28 2024 22:29:46 +00:00  svl_ipc.tcl
+638994  -rw-           137995  Mar 28 2024 22:29:46 +00:00  memleak.tcl
+638980  -rw-              437  Mar 28 2024 22:29:33 +00:00  boothelper.log
+32778   drwx             4096  Mar 28 2024 22:29:32 +00:00  dc_profile_dir
+639010  -rw-              140  Mar 28 2024 22:29:24 +00:00  mcelog.txt
+638991  -rw-            59311  Mar 28 2024 22:29:24 +00:00  bootloader_evt_handle.log
+40961   drwx             4096  Mar 28 2024 22:27:27 +00:00  .dbpersist
+638988  -rw-             2094  Mar 28 2024 22:26:10 +00:00  initial
+639003  -rw-             1924  Mar 22 2024 21:56:28 +00:00  ISRGRootX1CrossSignDST.ca
+40984   drwx             4096  Mar 22 2024 21:56:20 +00:00  EDScisco
+638984  -rwx                0  Mar 22 2024 21:55:22 +00:00  mode_event_log
+172033  drwx             4096  Mar 22 2024 21:55:22 +00:00  pcap
+40982   drwx             4096  Mar 22 2024 21:55:22 +00:00  SHARED-IOX
+639012  -rw-              152  Mar 22 2024 21:54:06 +00:00  .fpga_upg_run.log
+639009  -rw-             1198  Mar 22 2024 21:54:06 +00:00  .packages.verify.log
+639011  -rw-              924  Mar 22 2024 21:54:06 +00:00  mcu_debug.txt
+639006  -rw-              116  Mar 22 2024 21:47:59 +00:00  .mb_fpgapackages.log
+639005  -rw-             1442  Mar 22 2024 21:47:59 +00:00  preboothelper.log
+638982  -rw-              856  Mar 22 2024 21:47:59 +00:00  .bootpackages.verify.log
+639019  -rw-             2015  Mar 22 2024 21:47:59 +00:00  fpgahelper.log
+638981  -rw-              152  Mar 22 2024 21:47:14 +00:00  .iox_alt_hdd_cleanup.log
+98305   drwx             4096  Mar 22 2024 21:46:57 +00:00  .rollback_timer
+639021  -rw-             7542  Mar 22 2024 21:46:13 +00:00  packages.conf
+40966   -rw-             7542  Mar 22 2024 21:41:28 +00:00  cat9k_iosxe.17.12.02.SPA.conf
+40977   -rw-         61863162  Mar 22 2024 21:41:28 +00:00  cat9k-rpboot.17.12.02.SPA.pkg
+40976   -rw-             9216  Mar 22 2024 21:40:05 +00:00  cat9k-wlc.17.12.02.SPA.pkg
+40975   -rw-         18609152  Mar 22 2024 21:40:05 +00:00  cat9k-webui.17.12.02.SPA.pkg
+40974   -rw-         45130756  Mar 22 2024 21:40:04 +00:00  cat9k-srdriver.17.12.02.SPA.pkg
+40973   -rw-         65991680  Mar 22 2024 21:40:04 +00:00  cat9k-sipspa.17.12.02.SPA.pkg
+40972   -rw-         56759300  Mar 22 2024 21:40:03 +00:00  cat9k-sipbase.17.12.02.SPA.pkg
+40971   -rw-        838562816  Mar 22 2024 21:40:03 +00:00  cat9k-rpbase.17.12.02.SPA.pkg
+40970   -rw-             9216  Mar 22 2024 21:40:01 +00:00  cat9k-lni.17.12.02.SPA.pkg
+40969   -rw-          2200580  Mar 22 2024 21:40:01 +00:00  cat9k-guestshell.17.12.02.SPA.pkg
+40968   -rw-        196899844  Mar 22 2024 21:40:01 +00:00  cat9k-espbase.17.12.02.SPA.pkg
+40967   -rw-         31761416  Mar 22 2024 21:40:01 +00:00  cat9k-cc_srdriver.17.12.02.SPA.pkg
+639018  -rw-       1316755714  Mar 22 2024 21:35:03 +00:00  cat9k_iosxe.17.12.02.SPA.bin
+639017  -rw-             6728   Nov 6 2023 20:44:37 +00:00  cat9300_initial
+638986  -rw-            10698  Sep 19 2023 19:36:35 +00:00  baseline
+647170  drwx             4096   Apr 6 2023 19:25:34 +00:00  guest-share
+647169  drwx             4096   Apr 6 2023 19:25:30 +00:00  pnp-info
+98313   drwx             4096  Feb 17 2023 02:15:28 +00:00  core
+147467  drwx             4096  Feb 17 2023 02:15:27 +00:00  onep
+147465  drwx             4096  Feb 17 2023 02:14:54 +00:00  .rommon_sync
+639014  -rw-             1261  Feb 17 2023 02:14:51 +00:00  Baltimore.ca
+639013  -rw-             1606  Feb 17 2023 02:14:51 +00:00  StarfieldServicesRootCA.ca
+639004  -rw-             1338  Feb 17 2023 02:14:51 +00:00  DigiCertGlobalRootCA.ca
+147458  drwx             4096  Feb 17 2023 02:14:50 +00:00  Tbot
+139265  drwx             4096  Feb 17 2023 02:14:46 +00:00  fp_cc_crash
+131105  drwx             4096  Feb 17 2023 02:14:46 +00:00  sys_report
+11353194496 bytes total (8098328576 bytes free)
