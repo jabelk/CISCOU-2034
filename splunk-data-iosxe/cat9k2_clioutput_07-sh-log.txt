@@ -1,0 +1,74 @@
+
+Mon May 27 2024 14:29:26 GMT-0700 (Pacific Daylight Time)
+===================================================================================
+#show logging
+Syslog logging: enabled (0 messages dropped, 2 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+No Active Message Discriminator.
+No Inactive Message Discriminator.
+    Console logging: level debugging, 203 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 52 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+No active filter modules.
+    Trap logging: level debugging, 230463 message lines logged
+        Logging Source-Interface:       VRF Name:
+    TLS Profiles: 
+Log Buffer (10000 bytes):
+*May 27 21:18:35.079: %SYS-5-LOG_CONFIG_CHANGE: Console logging: level debugging, xml disabled, filtering disabled
+*May 27 21:18:35.080: %SYS-5-LOG_CONFIG_CHANGE: Buffer logging: level debugging, xml disabled, filtering disabled, size (10000)
+*May 27 21:18:35.081: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:18:53.567: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:18:53.567: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:18:53.567: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:19:02.931: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:19:13.809: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:19:50.144: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:19:50.144: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:19:50.144: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:20:07.722: %OSPF-6-DFT_OPT: Protocol timers for fast convergence are Enabled.
+*May 27 21:20:07.792: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:20:36.602: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:20:54.214: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:20:54.214: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:20:54.214: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:21:01.576: %PARSER-5-HIDDEN: Warning!!! ' crypto key generate rsa modulus 2048' is a hidden command. Use of this command is not recommended/supported and will be removed in future.
+*May 27 21:21:01.934: %CRYPTO_ENGINE-5-KEY_ADDITION: A key named ciscou-2034-router.lab.devnetsandbox.local has been generated or imported by crypto-engine
+*May 27 21:21:01.954: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:21:26.294: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:21:40.138: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:21:40.138: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:21:40.138: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:22:37.478: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:22:37.478: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:22:37.478: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:23:21.891: %SYS-5-CONFIG_P: Configured programmatically by process SEP_webui_wsma_http from console as cisco on vty2
+*May 27 21:23:32.634: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:23:32.635: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:23:32.635: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:23:51.261: %SSH-5-SSH2_SESSION: SSH2 Session request from 220.180.166.28 (tty = 2) using crypto cipher 'aes128-ctr', hmac 'hmac-sha2-256-etm@openssh.com' Succeeded
+*May 27 21:23:57.484: %SSH-5-SSH2_USERAUTH: User '' authentication for SSH2 Session from 220.180.166.28 (tty = 2) using crypto cipher 'aes128-ctr', hmac 'hmac-sha2-256-etm@openssh.com' Failed
+*May 27 21:23:57.484: %SSH-5-SSH2_CLOSE: SSH2 Session from 220.180.166.28 (tty = 2) for user '' using crypto cipher 'aes128-ctr', hmac 'hmac-sha2-256-etm@openssh.com' closed
+*May 27 21:24:27.275: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:24:27.275: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:24:27.275: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:25:24.535: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:25:24.535: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:25:24.535: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:26:20.838: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:26:20.838: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:26:20.838: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:27:16.544: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:27:16.544: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:27:16.544: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:27:40.029: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha1,hmac-sha1-96 server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:27:40.029: %SSH-5-SSH2_SESSION: SSH2 Session request from 167.248.133.33 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:27:40.029: %SSH-5-SSH2_CLOSE: SSH2 Session from 167.248.133.33 (tty = 2) for user '' using crypto cipher '', hmac '' closed
+*May 27 21:28:12.501: %SSH-3-NO_MATCH: No matching mac found: client hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com server hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+*May 27 21:28:12.501: %SSH-5-SSH2_SESSION: SSH2 Session request from 180.101.88.234 (tty = 2) using crypto cipher '', hmac '' Failed
+*May 27 21:28:12.501: %SSH-5-SSH2_CLOSE: SSH2 Session from 180.101.88.234 (tty = 2) for user '' using crypto cipher '', hmac '' closed

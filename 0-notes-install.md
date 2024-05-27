@@ -462,3 +462,47 @@ Would you like to change ports? [y/n]:
 ```
 
 set port to 8095 since 8089 was used
+
+# after restart
+
+~$ splunkcmd show web-port
+Web port: 8000
+~$ splunkcmd status
+splunkd is not running.
+~$ splunkcmd start
+
+Splunk> CSI: Logfiles.
+
+Checking prerequisites...
+	Checking http port [8000]: open
+	Checking mgmt port [8089]: open
+	Checking appserver port [127.0.0.1:8065]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _dsappevent _dsclient _dsphonehome _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket history main summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/Applications/Splunk/splunk-9.2.1-78803f08aabb-darwin-64-manifest'
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+Done
+
+
+Waiting for web server at http://127.0.0.1:8000 to be available............ Done
+
+
+If you get stuck, we're here to help.
+Look for answers here: http://docs.splunk.com
+
+The Splunk web interface is at http://JABELK-M-957F:8000
+
+~$
